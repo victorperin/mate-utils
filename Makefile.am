@@ -26,8 +26,7 @@ DISTCLEANFILES =                \
 
 DISTCHECK_CONFIGURE_FLAGS = \
 	--disable-scrollkeeper \
-	--enable-gtk-doc \
-	--with-gtk=$(GTK_API_VERSION)
+	--enable-gtk-doc
 
 # Build ChangeLog from GIT  history
 ChangeLog:
